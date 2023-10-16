@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.pinimg.com/originals/56/30/d5/5630d5c8e555ae2dc0d750683e8ae2bd.gif");
+    background-image: url("https://i.pinimg.com/originals/b7/7f/2b/b77f2b97351bdb897967b1f55978af1f.gif");
     background-size: 100% 100%;
     display: flex;
     justify-content: center;
@@ -7,6 +7,15 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+#dark-mode-toggle{
+    margin-bottom: 0;
+}
+.dark-mode{
+    background-image: url("https://i.pinimg.com/originals/56/30/d5/5630d5c8e555ae2dc0d750683e8ae2bd.gif");
+    background-size: 100% 100%;
 }
 
 .container {
@@ -16,6 +25,8 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 .form-group {
@@ -29,13 +40,13 @@ textarea {
     padding: 8px;
     margin-top: 6px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #2124d8;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #5728d6;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -44,5 +55,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #55a6d4;
 }
